@@ -2,6 +2,8 @@
 
 Лендинг-страница на React.
 
+🌐 **Демо**: https://sumaya20011.github.io/React-lending-page/
+
 ## Структура проекта
 
 ```
