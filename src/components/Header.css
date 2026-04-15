@@ -1,0 +1,40 @@
+.header {
+  background-color: #17191D;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 64px;
+  gap: 20px;
+}
+
+.header-logo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  justify-content: center;
+}
+
+.header-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header-login {
+  background-color: #FF342B;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  width: 88px;
+  height: 44px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}

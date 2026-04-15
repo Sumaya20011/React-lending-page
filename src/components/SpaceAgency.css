@@ -1,0 +1,64 @@
+.space-agency {
+  background-color: #17191D;
+  color: #fff;
+  padding: 60px 80px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.space-agency-title {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.space-agency-description {
+  font-size: 18px;
+  color: #a0a0a0;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 60px;
+  line-height: 1.6;
+}
+
+.space-agency-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.space-agency-image {
+  flex: 1;
+  max-width: 500px;
+}
+
+.space-agency-image img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.space-agency-features {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+}
+
+.feature-icon {
+  font-size: 48px;
+  color: #4A6CF7;
+}
+
+.feature p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
